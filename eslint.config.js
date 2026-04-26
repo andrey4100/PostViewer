@@ -12,7 +12,7 @@ export default tseslint.config(
   {
     plugins: {
       '@typescript-eslint': tseslint.plugin,
-      'react': eslintReact,
+      react: eslintReact,
       'react-hooks': eslintReactHooks,
       'react-refresh': eslintReactRefresh,
       prettier: prettierPlugin,
@@ -32,7 +32,7 @@ export default tseslint.config(
       },
       parserOptions: {
         project: ['tsconfig.json', 'tsconfig.node.json'],
-      }
+      },
     },
   },
   {
@@ -47,6 +47,7 @@ export default tseslint.config(
       'react/self-closing-comp': ['error', { component: true, html: true }],
       'max-lines': ['warn', { max: 124 }],
       'max-params': ['error', 3],
+      'prettier/prettier': ['error', { endOfLine: 'auto' }],
     },
   },
 );

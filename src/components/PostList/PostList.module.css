@@ -1,0 +1,76 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pageTitle {
+  text-align: center;
+  margin: 0 0 32px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.postCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 4px solid #4f46e5;
+}
+
+.postCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.postTitle {
+  margin: 0 0 12px;
+  font-size: 18px;
+  color: #1f2937;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.postBody {
+  margin: 0 0 16px;
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.readMore {
+  display: inline-block;
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.readMore:hover {
+  color: #4338ca;
+  text-decoration: underline;
+}
+
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.emptyState {
+  text-align: center;
+  color: #6b7280;
+  padding: 40px 20px;
+}
